@@ -1,0 +1,38 @@
+Options -Indexes
+
+ErrorDocument 404  "http://localhost/SVI%20PROJEKTI/Graduation%20project%20ITA/404.html"
+ErrorDocument 403 "You do not have permission to access this file."
+ErrorDocument 401 "Your authorization failed. Please try refreshing the page and fill in correct credentials."
+
+
+RewriteEngine On
+
+#RewriteCond %{HTTPS} off
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+RewriteRule     home            index.php 
+RewriteRule     about           pages/about.php
+RewriteRule     admin           pages/admin.php
+RewriteRule     cart            pages/cart.php
+RewriteRule     collection      pages/collection.php
+RewriteRule     contact         pages/contact.php
+RewriteRule     login           pages/login.php
+RewriteRule     logout          pages/logout.php
+RewriteRule     products        pages/products.php
+RewriteRule     user            pages/user.php
+
+RewriteRule ^([0-9]+)/?$                 pages/singleproduct.php?id=$1
+RewriteRule ^category-([0-9]+)/?$        pages/products.php?category=$1
+RewriteRule ^products?page=([0-9]+)/?$   pages/products.php?page=$1
+
+
+
+
+
+
+
+
+
+
+
