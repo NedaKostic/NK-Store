@@ -1,6 +1,6 @@
 Options -Indexes
 
-ErrorDocument 404  "http://localhost/SVI%20PROJEKTI/Graduation%20project%20ITA/404.html"
+ErrorDocument 404  /404.html
 ErrorDocument 403 "You do not have permission to access this file."
 ErrorDocument 401 "Your authorization failed. Please try refreshing the page and fill in correct credentials."
 
