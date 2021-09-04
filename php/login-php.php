@@ -51,7 +51,7 @@ if(isset($_POST['username']) and isset($_POST['password']) and $_POST['username'
                                 $_SESSION['user_email']=$row->user_email;   
                                 $_SESSION['user_role'] = $row->user_role;
 
-                                if($remember=="1")
+                                if($remember)
                                 {
                                     setcookie("user_id",  $_SESSION['user_id'], time()+86400, "/");
                                     setcookie("user_username",  $_SESSION['user_username'], time()+86400, "/");
