@@ -363,7 +363,7 @@ INSERT INTO `user` (`user_id`, `user_firstname`, `user_lastname`, `user_username
 (6, 'Ana', 'Anić', 'anci1234', 'ana@amail.com', 'c708106b62c80befb398afdd3d89090f2516668d26cf6dd1f353a5b12d6b4210A*d6Mr3Vvevy#&Gi', '062415123', 'Ulica 88, Beograd', 'customer', '2021-07-07 21:18:13', 1, 1, 1, 4),
 (7, 'Biljana', 'Biljić', 'bbiljana66', 'bbilja@bmail.com', '714ec3743f7c4cb17872e787fa9764a6ee1a476a4f800a355f34b5eb2638db21A*d6Mr3Vvevy#&Gi', '062545871', 'Hercegovačka 12, Užice', 'customer', '2021-07-08 12:13:48', 1, 1, 0, 0),
 (9, 'Jovana', 'Jovic', 'jovanajovic', 'jo@jmail.com', '54af2a2960e582263c45971cdd40da4ae31ede1db5395629d910f056479de12dA*d6Mr3Vvevy#&Gi', '008965451', 'jovanajovic', 'customer', '2021-07-19 11:37:57', 1, 1, 0, 0),
-(11, 'Test', 'Test', 'testuser', 'test@mail.com', 'ae5deb822e0d71992900471a7199d0d95b8e7c9d05c40a8245a281fd2c1d6684A*d6Mr3Vvevy#&Gi', '00112233', 'testuser', 'customer', '2021-09-02 10:51:30', 1, 1, 0, 0);
+(11, 'Test', 'Test', 'testuser', 'test@mail.com', 'cb8fc3d156d15b1544f8c739131cfe5b701259d25fd8d2637c86e77e7e7a7467A*d6Mr3Vvevy#&Gi', '00112233', 'testuser', 'customer', '2021-09-02 10:51:30', 1, 1, 0, 0);
 
 -- --------------------------------------------------------
 
