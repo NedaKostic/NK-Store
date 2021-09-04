@@ -86,7 +86,7 @@ if ($_SESSION['user_role'] != "administrator") {
           </select>
           <form action="" method="post" id="product-form" name="product-form" enctype="multipart/form-data">
             <label for="prodId">Product</label>
-            <input type="text" id="prodId" name="prodId" disabled>
+            <input type="text" id="prodId" name="prodId" readonly>
             <label for="prodSizeId">Size ID</label>
             <input type="text" id="prodSizeId" name="prodSizeId">
             <label for="prodName">Product Name</label>
