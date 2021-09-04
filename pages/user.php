@@ -1,9 +1,6 @@
 <!---------------- INCLUDE HEAD and FILES ----------->
 <?php include_once("../inc/_head.php"); ?>
 
-<!------------ INCLUDE CUSTOM JS FILES -------------->
-<script src="assets/js/user.js"></script>
-
 <?php if (!login()) {
     echo "You must be logged in to access this page!<br>You can log in here: <a style='color:black' href='login'>Log in</a>";
     exit();
@@ -13,6 +10,9 @@ if ($_SESSION['user_role'] != "customer") {
     exit();
 }
 ?>
+
+<!------------ INCLUDE CUSTOM JS FILES -------------->
+<script src="assets/js/user.js"></script>
 
 <!------------------INCLUDE HEADER ------------------>
 <?php include_once("../inc/_header.php"); ?>
