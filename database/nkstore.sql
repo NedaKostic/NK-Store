@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 03, 2021 at 12:05 AM
+-- Generation Time: Sep 04, 2021 at 02:05 PM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 7.3.27
 
@@ -270,7 +270,8 @@ INSERT INTO `product_size` (`product_id`, `size_id`, `quantity`, `created_at`, `
 (20, 2, 6, '2021-09-02 12:48:15', NULL),
 (20, 4, 4, '2021-09-02 12:48:33', NULL),
 (21, 2, 3, '2021-09-02 12:55:16', NULL),
-(22, 1, 4, '2021-09-02 13:04:35', NULL);
+(22, 1, 4, '2021-09-02 13:04:35', NULL),
+(22, 2, 4, '2021-09-04 10:24:30', NULL);
 
 -- --------------------------------------------------------
 
@@ -355,15 +356,15 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`user_id`, `user_firstname`, `user_lastname`, `user_username`, `user_email`, `user_password`, `user_phone`, `user_address`, `user_role`, `created_at`, `is_active`, `is_valid`, `is_voted`, `voted_result`) VALUES
-(1, 'Neda', 'Kostić', 'nele123', 'nele@mail.com', '6204bb581a108b88f95b20a51c42506d261470e57376912026980432accf97eaA*d6Mr3Vvevy#&Gi', '+3815655555', 'Adminova 55, Beograd', 'administrator', '2021-05-13 21:11:27', 1, 1, 0, 0),
+(1, 'Neda', 'Kostić', 'neleadmin', 'nele@mail.com', '6204bb581a108b88f95b20a51c42506d261470e57376912026980432accf97eaA*d6Mr3Vvevy#&Gi', '+3815655555', 'Adminova 55, Beograd', 'administrator', '2021-05-13 21:11:27', 1, 1, 0, 0),
 (2, 'Ivan ', 'Ilić', 'ivan123', 'ivan@mail.com', '6c84b1086e558a0b9dad7623979f6ddf9f337084f281d9b3a07273d04b425344A*d6Mr3Vvevy#&Gi', '0635487852', 'Bulevar kralja Aleksandra 102, Beograd', 'administrator', '2021-05-13 21:12:02', 1, 1, 0, 0),
 (3, 'Jasna', 'Perović', 'jasna1234', 'jasna@mail.com', 'ef011879f6e7e19efc42d12fcd94b458572bc8d540e7fb22df10fd22e8fed2b7A*d6Mr3Vvevy#&Gi', '+3815554781', 'Ulica 23, Kragujevac', 'customer', '2021-05-17 19:33:03', 1, 1, 0, 0),
 (4, 'Milos', 'Mikic', 'milosmm', 'msa@sgga.com', '3cb954831762c9b718439233fecf79ef3c1739c438a57382bb971036e7baed5eA*d6Mr3Vvevy#&Gi', '06415811225', 'Bulevar 11, Beograd', 'customer', '2021-06-27 16:20:22', 1, 4294967295, 1, 5),
 (5, 'Bojan', 'Bokić', 'bbokilili', 'bboki@mail.com', '7392464f5e49d8cf0f494611913b2a8161fbfbff6b503d9ad92254c64a6380c7A*d6Mr3Vvevy#&Gi', '778855565', 'Ulica 23, stan 8, Novi Sad', 'customer', '2021-07-07 20:16:30', 1, 1, 1, 5),
 (6, 'Ana', 'Anić', 'anci1234', 'ana@amail.com', 'c708106b62c80befb398afdd3d89090f2516668d26cf6dd1f353a5b12d6b4210A*d6Mr3Vvevy#&Gi', '062415123', 'Ulica 88, Beograd', 'customer', '2021-07-07 21:18:13', 1, 1, 1, 4),
 (7, 'Biljana', 'Biljić', 'bbiljana66', 'bbilja@bmail.com', '714ec3743f7c4cb17872e787fa9764a6ee1a476a4f800a355f34b5eb2638db21A*d6Mr3Vvevy#&Gi', '062545871', 'Hercegovačka 12, Užice', 'customer', '2021-07-08 12:13:48', 1, 1, 0, 0),
-(9, 'Jovana', 'Jovic', 'jovanajovic', 'jo@jmail.com', '54af2a2960e582263c45971cdd40da4ae31ede1db5395629d910f056479de12dA*d6Mr3Vvevy#&Gi', '008965451', 'jovanajovic', 'customer', '2021-07-19 11:37:57', 1, 1, 0, 0),
-(11, 'Test', 'Test', 'testuser', 'test@mail.com', 'cb8fc3d156d15b1544f8c739131cfe5b701259d25fd8d2637c86e77e7e7a7467A*d6Mr3Vvevy#&Gi', '00112233', 'testuser', 'customer', '2021-09-02 10:51:30', 1, 1, 0, 0);
+(9, 'Jovana', 'Jovic', 'jovanajovic', 'jo@jmail.com', '54af2a2960e582263c45971cdd40da4ae31ede1db5395629d910f056479de12dA*d6Mr3Vvevy#&Gi', '008965451', 'adddress 123', 'customer', '2021-07-19 11:37:57', 1, 1, 0, 0),
+(11, 'Test', 'Test', 'testuser', 'test@mail.com', '96d5e7f769f9a595192c4a075e80254ac9900ba8f968033655bf64e83bed7443A*d6Mr3Vvevy#&Gi', '00112233', 'testuser', 'customer', '2021-09-02 10:51:30', 1, 1, 0, 0);
 
 -- --------------------------------------------------------
 
