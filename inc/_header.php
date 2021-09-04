@@ -1,4 +1,9 @@
-<body>
+<body>  
+     <!-- PRELOADER -->
+   <div class="preloader">
+        <div class="loading"></div>
+    </div>
+   
    <!-- HEADER -->
    <header>
 
