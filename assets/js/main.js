@@ -16,6 +16,11 @@ $(window).scroll(function() {
 })
 })
 
+//PRELOADER
+$(window).on('load', function(){
+  $('.preloader').fadeOut(500); 
+});
+
 
 
     
