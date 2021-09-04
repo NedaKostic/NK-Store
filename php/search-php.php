@@ -24,7 +24,7 @@ if(isset($_POST['inputText']))
     {
 
         while($row=$db->fetch_object($result))
-         echo "<li><a href='singleproduct.php?id=".$row->product_id."'>" .$row->product_name. "</a></li>";
+         echo "<li><a href='$row->product_id'>" .$row->product_name. "</a></li>";
         
     } else echo "<li>No matching results</li>";
 
